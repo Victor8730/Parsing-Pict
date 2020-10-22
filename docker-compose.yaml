@@ -1,0 +1,30 @@
+version: "3.3"
+
+#Docker Services
+services:
+   nginx:
+     container_name: parsing-pict-nginx
+     build:
+       context: .
+       dockerfile: docker/nginx.Dockerfile
+     ports:
+       - 80:80
+     links:
+       - fpm
+     volumes:
+         - ./:/var/www/parsing-pict-docker
+     networks:
+       - app-network
+   fpm:
+     container_name: parsing-pict-php-fpm
+     build:
+       context: .
+       dockerfile: docker/fpm.Dockerfile
+     volumes:
+       - ./:/var/www/parsing-pict-docker
+     networks:
+       - app-network
+#Docker Networks
+networks:
+  app-network:
+    driver: bridge

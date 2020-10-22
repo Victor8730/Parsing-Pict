@@ -1,0 +1,5 @@
+
+2020-10-22 15:54:07 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/Controller%D1%84%D0%B2%D0%B2.php' not exist!
+2020-10-22 15:54:39 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionGenerate not exist in controller Controllers\ControllerMain
+2020-10-22 15:55:10 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionGenerate not exist in controller Controllers\ControllerMain
+2020-10-22 15:59:39 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionGenerate not exist in controller Controllers\ControllerMain
