@@ -28,9 +28,26 @@
     </div>
     <div class="navbar navbar-dark bg-dark box-shadow">
         <div class="container d-flex justify-content-between">
-            <a href="/" class="navbar-toggler" title="Show all task">
-                <i class="fa fa-list fa-2x" aria-hidden="true"></i>
+            <a href="/" class="navbar-toggler" title="Home">
+                <i class="fa fa-home fa-2x" aria-hidden="true"></i>
             </a>
+            <div class="btn-group navbar-toggler">
+
+                <button type="button" class="btn btn-secondary dropdown-toggle"
+                        data-target="#openDropDown"
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                    <span class="text-white">Download type</span>
+                </button>
+                <div class="dropdown-menu" id="openDropDown">
+                    <a class="dropdown-item" href="/url/index">download all pict from url</a>
+                    <a class="dropdown-item" href="/nastol/index">download from nastol.com.ua</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">In progress</a>
+                </div>
+            </div>
             <button class="navbar-toggler tooltip-show" type="button" title="Show info" data-toggle="collapse"
                     data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true"
                     aria-label="Toggle navigation">
@@ -45,10 +62,6 @@
 
         </div>
     </div>
-    <div class="py-3 text-center">
-        <img class="d-block mx-auto mb-2 img-responsive" src="/img/parsing.jpg" alt="Redirect generator" width="200" height="200">
-        <h2>Parsing pictures</h2>
-    </div>
 
     <div class="row content">
         {% block content %}
@@ -57,7 +70,7 @@
 
     <footer class="my-5 pt-5 text-muted text-center text-small">
         <p class="mb-1">&copy; 2020 Webpagestudio</p>
-        <p class="mb-1">ver. {{ ver }}</p>
+        <p class="mb-1">ver. {{ constant('Core\\Base::VERSION') }}</p>
     </footer>
 </div>
 
@@ -89,19 +102,6 @@
             $(".alert").alert('close');
         }, 3000);
     }
-    $(".check-data").on('click', function () {
-        event.preventDefault();
-        let data = $('.form-generate').serialize();
-        $.ajax({
-            type: "POST",
-            url: 'main/generate',
-            data: data,
-            dataType: 'json',
-            success: function (answer) {
-               (answer['success'] === true) ? showAlert(answer['message'], 'success') : showAlert(answer['message'], 'danger');
-            }
-        });
-    });
 </script>
 </body>
 </html>

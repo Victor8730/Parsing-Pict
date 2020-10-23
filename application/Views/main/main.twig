@@ -1,20 +1,32 @@
 {% extends "template.twig" %}
 {% block content %}
     <div class="col-md-12 order-md-2">
+        <div class="py-3 text-center">
+            <img class="d-block mx-auto mb-2 img-responsive" src="/img/parsing.jpg" alt="Redirect generator" width="200"
+                 height="200">
+            <h2>Parsing pictures</h2>
+        </div>
         <div class="card text-center">
-            <form action="/main/generate" method="post" class="my-2 form-redirect">
-                <div class="input-group px-4 py-2">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"><i class="fa fa-share-alt pr-2" aria-hidden="true"></i>Url image</span>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action ">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Download all images from a specific page</h5>
+                        <small><i class="fa fa-check-circle-o fa-2x text-success" aria-hidden="true"></i></small>
                     </div>
-                    <input type="text" name="url-data" id="url-data" class="form-control" placeholder="Url example image" aria-describedby="url-data">
-                </div>
-                <div class="form-group row">
-                    <div class="col-sm-12 py-2">
-                        <button type="submit" class="btn btn-success tooltip-show" title="Process starting">Start download</button>
+                    <p class="mb-1">If you need to download all the pictures from the site pages, then select the first
+                        item in the drop-down list of the menu "Download type", then enter the address of
+                        the page, in the result in the download folder all pictures of the selected page will be
+                        downloaded</p>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h5 class="mb-1">Download from nastol.com.ua</h5>
+                        <small><i class="fa fa-spinner text-warning fa-2x" aria-hidden="true"></i></small>
                     </div>
-                </div>
-            </form>
+                    <p class="mb-1">it is necessary to indicate the link of the downloaded file, and indicate the
+                        boundary parameters...</p>
+                </a>
+            </div>
         </div>
     </div>
 {% endblock %}

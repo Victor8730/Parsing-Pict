@@ -1,4 +1,5 @@
 # phpstorm project files
 .idea
+#other file and dir
 application/vendor/*
 application/Cache/*

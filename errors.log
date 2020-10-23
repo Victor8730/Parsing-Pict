@@ -3,3 +3,13 @@
 2020-10-22 15:54:39 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionGenerate not exist in controller Controllers\ControllerMain
 2020-10-22 15:55:10 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionGenerate not exist in controller Controllers\ControllerMain
 2020-10-22 15:59:39 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionGenerate not exist in controller Controllers\ControllerMain
+2020-10-23 15:33:41 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-10-23 15:35:46 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-10-23 15:35:56 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-10-23 15:45:32 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-10-23 16:00:47 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionIndexawdwd not exist in controller Controllers\ControllerUrl
+2020-10-23 16:04:49 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionAdad not exist in controller Controllers\Controller404
+2020-10-23 16:04:55 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerMainawdawd.php' not exist!
+2020-10-23 16:05:05 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 158 | Method actionAwdwadawd not exist in controller Controllers\ControllerMain
+2020-10-23 16:08:49 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerDrgdrg.php' not exist!
+2020-10-23 16:16:35 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
