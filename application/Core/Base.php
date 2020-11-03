@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Core;
 
-class Base implements face\Base
+class Base implements Face\Base
 {
     /**
      * Program version
      */
-    public const VERSION = '0.1.1';
+    public const VERSION = '0.2.0';
 
     /**
      * Main folder where both frontend and backend are located
