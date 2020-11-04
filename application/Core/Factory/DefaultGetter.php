@@ -20,7 +20,7 @@ class DefaultGetter extends SiteImageGetter
         $this->url = $url;
     }
 
-    public function getSiteImage(): SiteImageLoader
+    public function factoryMethod(): SiteImageLoader
     {
         return new DefaultLoader($this->url);
     }

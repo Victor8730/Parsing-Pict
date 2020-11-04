@@ -30,13 +30,9 @@ class ControllerUrl extends Controller
         }
     }
 
-
-    function clientCode(SocialNetworkPoster $creator)
+    private function Downloader(SiteImageGetter $getter)
     {
-        // ...
-        $creator->post("Hello world!");
-        $creator->post("I had a large hamburger this morning!");
-        // ...
+        return $getter->get();
     }
 
     public function actionDownload(): void
@@ -44,20 +40,11 @@ class ControllerUrl extends Controller
         $strOutside = $this->validate();
         $dataFromUrl = $this->getDataFromUrl($strOutside);
 
-
-
-        $result = '';
-
         if (!empty($dataFromUrl)) {
-            
-            $result = var_dump($extractedImages);
-
+            $result = $this->Downloader(new DefaultGetter($dataFromUrl));
         } else {
             $this->isAjax ? $this->ajaxResponse(false, 'Url not exist, check url!') : Route::errorPage404();
         }
-
-        header('Content-type: text/html; charset=utf-8');
-        header('Content-disposition: attachment; filename=Redirect301_' . date("Ymd_His") . '.txt');
 
         if ($this->isAjax) {
             $this->ajaxResponse(true, 'It’s ok!');

@@ -8,11 +8,13 @@ use core\Face\SiteImageLoader;
 
 abstract class SiteImageGetter
 {
-    abstract public function getSiteImage(): SiteImageLoader;
+    abstract public function factoryMethod(): SiteImageLoader;
 
-    public function get(): void
+    public function get(): string
     {
-        $site = $this->getSiteImage();
+        $site = $this->factoryMethod();
         $site->downloadImages();
+
+        return 'ok!';
     }
 }

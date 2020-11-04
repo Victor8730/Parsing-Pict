@@ -17,7 +17,7 @@ class DefaultLoader implements SiteImageLoader
 
     public function downloadImages(): void
     {
-        $htmlString = file_get_contents($this->url);
+        $htmlString = $this->url;
         $htmlDom = new DOMDocument;
         @$htmlDom->loadHTML($htmlString);
         $imageTags = $htmlDom->getElementsByTagName('img');

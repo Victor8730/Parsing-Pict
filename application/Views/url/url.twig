@@ -2,16 +2,23 @@
 {% block content %}
     <div class="col-md-12 order-md-2">
         <div class="card text-center">
-            <form action="/main/generate" method="post" class="my-2 form-redirect">
+            <form action="/url/download" method="post" class="my-2 get-file">
                 <div class="input-group px-4 py-2">
                     <div class="input-group-prepend">
                         <span class="input-group-text"><i class="fa fa-share-alt pr-2" aria-hidden="true"></i>Url site</span>
                     </div>
-                    <input type="text" name="url-data" id="url-data" class="form-control" placeholder="The page of the site where you need to download all the images" aria-describedby="url-data">
+                    <input type="text" name="url-data" id="url-data" class="form-control"
+                           placeholder="The page of the site where you need to download all the images"
+                           aria-describedby="url-data">
+                    <div class="input-group-append">
+                        <button class="input-group-text check">Check url</button>
+                    </div>
                 </div>
                 <div class="form-group row">
                     <div class="col-sm-12 py-2">
-                        <button type="submit" class="btn btn-success tooltip-show" title="Process starting">Start download</button>
+                        <button type="submit" class="btn btn-success tooltip-show" title="Process starting">Start
+                            download
+                        </button>
                     </div>
                 </div>
             </form>
