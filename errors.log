@@ -19,3 +19,49 @@
 2020-11-04 18:12:05 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:176/ Failed to open http://localhost/img/parsing.jpg
 2020-11-04 18:12:10 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:176/ Failed to open http://localhost/img/parsing.jpg
 2020-11-04 18:20:11 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-11-10 11:15:59 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-11-10 12:17:40 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 77 | Post or Get data not valid ->
+
+2020-11-10 12:34:16 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:34:16 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:34:25 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:34:25 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:34:42 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:34:42 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:17 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:17 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:20 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:20 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:23 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:23 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:27 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:27 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:41 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:41 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:58 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:58 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:35:59 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:35:59 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:36:38 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 77 | Post or Get data not valid ->
+
+2020-11-10 12:37:15 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:37:15 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:37:34 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:37:34 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:39:14 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-10 12:39:14 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-10 12:40:31 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerImg.php' not exist!
+2020-11-10 12:40:31 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:176/ Failed to open http://test.loc/img/parsing.jpg1

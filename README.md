@@ -1,4 +1,4 @@
-﻿## "Parsing pictures" - mini application with MVC structure
+﻿## "Parsing pictures" - mini application with MVC structure and factory pattern
 
 ### Why do you need a program
 

@@ -28,10 +28,13 @@ function showAlert(message, type) {
 $(document).on('click', '.check', function (event) {
     event.preventDefault();
     let form = $('.get-file');
-    let href = form.attr('action');
-    let data = $('.url-data').val();
+    let action = form.attr('action');
+    let data = form.serialize();
     $.ajax({
-        url: href,
+        type: 'POST',
+        url: action,
+        data: data,
+        dataType: 'json',
         success: function (result) {
             showAlert(result.message, result.success)
         },

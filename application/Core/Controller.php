@@ -49,7 +49,7 @@ class Controller extends Base
     protected function ajaxResponse(bool $success = true, string $message = ''): void
     {
         $response = array(
-            'success' => $success,
+            'success' => ($success===true) ? 'success' : 'danger',
             'message' => $message
         );
 

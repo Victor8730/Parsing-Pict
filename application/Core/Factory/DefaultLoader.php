@@ -32,7 +32,7 @@ class DefaultLoader implements SiteImageLoader
                 'title' => $titleText
             );
         }
-        var_dump($extractedImages);
+        print_r($extractedImages);
     }
 
 }

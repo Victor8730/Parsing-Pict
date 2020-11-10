@@ -41,15 +41,13 @@ class ControllerUrl extends Controller
         $dataFromUrl = $this->getDataFromUrl($strOutside);
 
         if (!empty($dataFromUrl)) {
-            $result = $this->Downloader(new DefaultGetter($dataFromUrl));
+            if($this->isAjax){
+                $this->ajaxResponse(true, 'Url OK!');
+            }else {
+                $this->Downloader(new DefaultGetter($dataFromUrl));
+            }
         } else {
             $this->isAjax ? $this->ajaxResponse(false, 'Url not exist, check url!') : Route::errorPage404();
-        }
-
-        if ($this->isAjax) {
-            $this->ajaxResponse(true, 'It’s ok!');
-        } else {
-            echo $result;
         }
     }
 
@@ -64,6 +62,7 @@ class ControllerUrl extends Controller
             $this->validator->checkFileExistFromUrl($dataOutside['url']);
             $data = file_get_contents($dataOutside['url']);
         } catch (NotExistFileFromUrlException $e) {
+            $this->ajaxResponse(false, 'Url bad!');
             return null;
         }
 
@@ -76,8 +75,7 @@ class ControllerUrl extends Controller
      */
     private function validate(): array
     {
-        $exampleUrl = 'http://' . $_SERVER['SERVER_NAME'] . '/img/parsing.jpg';
-        $urlData = (isset($_POST['url-data']) && !empty($_POST['url-data'])) ? $_POST['url-data'] : $exampleUrl;
+        $urlData = $_POST['url-data'] ?? '';
 
         try {
             $urlData = $this->validator->checkStr($urlData);
