@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Core\Factory;
 
-use core\Face\SiteImageLoader;
+use Core\Face\SiteImageLoader;
 
 abstract class SiteImageGetter
 {

@@ -30,43 +30,42 @@ class ControllerUrl extends Controller
         }
     }
 
-    private function Downloader(SiteImageGetter $getter)
-    {
-        return $getter->get();
-    }
-
     public function actionDownload(): void
     {
         $strOutside = $this->validate();
-        $dataFromUrl = $this->getDataFromUrl($strOutside);
 
-        if (!empty($dataFromUrl)) {
-            if($this->isAjax){
+        if ($this->checkDataFromUrl($strOutside) === true) {
+            if ($this->isAjax) {
                 $this->ajaxResponse(true, 'Url OK!');
-            }else {
-                $this->Downloader(new DefaultGetter($dataFromUrl));
+            } else {
+                $this->download(new DefaultGetter($strOutside['url']));
             }
-        } else {
-            $this->isAjax ? $this->ajaxResponse(false, 'Url not exist, check url!') : Route::errorPage404();
         }
     }
 
+    private function download(SiteImageGetter $getter)
+    {
+        $getter->get();
+    }
+
     /**
-     * Get all html from url, if exist data
+     * Check url, if exist data return true, else false
      * @param array $dataOutside
-     * @return false|string|null
+     * @return bool
      */
-    private function getDataFromUrl(array $dataOutside): ?string
+    private function checkDataFromUrl(array $dataOutside): bool
     {
         try {
             $this->validator->checkFileExistFromUrl($dataOutside['url']);
-            $data = file_get_contents($dataOutside['url']);
         } catch (NotExistFileFromUrlException $e) {
-            $this->ajaxResponse(false, 'Url bad!');
-            return null;
+            if ($this->isAjax) {
+                $this->ajaxResponse(false, 'Url Bad!');
+            } else {
+                Route::errorPage404();
+            }
         }
 
-        return $data;
+        return true;
     }
 
     /**
