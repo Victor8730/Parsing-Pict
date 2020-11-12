@@ -10,9 +10,10 @@ abstract class SiteImageGetter
 {
     abstract public function factoryMethod(): SiteImageLoader;
 
-    public function get(): void
+    public function get(): bool
     {
         $site = $this->factoryMethod();
-        $site->downloadImages();
+
+        return $site->downloadImages();
     }
 }

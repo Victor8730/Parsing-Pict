@@ -6,5 +6,5 @@ namespace Core\Face;
 
 interface SiteImageLoader
 {
-    public function downloadImages(): void;
+    public function downloadImages(): bool;
 }

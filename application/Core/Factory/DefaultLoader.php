@@ -20,7 +20,7 @@ class DefaultLoader implements SiteImageLoader
         $this->url = $url;
     }
 
-    public function downloadImages(): void
+    public function downloadImages(): bool
     {
         $htmlString = file_get_contents($this->url);
         $urlParse = parse_url($this->url);
@@ -29,8 +29,11 @@ class DefaultLoader implements SiteImageLoader
         $imageTags = $htmlDom->getElementsByTagName('img');
         foreach ($imageTags as $imageTag) {
             $atrSrc = $imageTag->getAttribute('src');
-            $imgSrc = (strpos($this->url, $urlParse['host']) === true) ? $atrSrc : $urlParse['scheme'] . '://' . $urlParse['host'] . $atrSrc;
-            (new Downloader($imgSrc, '\downloads\test.jpg'))->copyFile();
+            $imgSrc = (strpos($atrSrc, $urlParse['host']) == true) ? $atrSrc : $urlParse['scheme'] . '://' . $urlParse['host'] . '/' . $atrSrc;
+            $nameFile = basename($imgSrc);
+            (new Downloader($imgSrc, $urlParse['host'], $nameFile))->copyFile();
         }
+
+        return true;
     }
 }

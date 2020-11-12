@@ -3,26 +3,40 @@ declare(strict_types=1);
 
 namespace Core;
 
+use Exceptions\NotExistFileFromUrlException;
+
 class Downloader
 {
-    public string $url;
-    public string $path;
+    private string $url;
 
-    public function __construct($url, $path)
+    private string $path;
+
+    private string $fileName;
+
+    private object $validator;
+
+    public function __construct($url, $path, $fileName)
     {
         $this->url = $url;
         $this->path = $path;
+        $this->fileName = $fileName;
+        $this->validator = new Validator();
     }
 
     public function copyFile(): bool
     {
-        $file = file_get_contents($this->url);
-
-        if (!file_put_contents($_SERVER['DOCUMENT_ROOT'] . '/' . $this->path, $file)) {
+        try {
+            $this->validator->checkFileExistFromUrl($this->url);
+        } catch (NotExistFileFromUrlException $e) {
             return false;
-        } else {
-            return true;
         }
+
+        $file = file_get_contents($this->url);
+        $adrFile = BASE::PATH_DOWNLOAD . '/' . $this->path;
+        (!is_dir($adrFile)) ? mkdir($adrFile) : null;
+        file_put_contents($adrFile . '/' . $this->fileName, $file);
+
+        return true;
     }
 
     public function copyFileCurl(): bool

@@ -125,3 +125,60 @@
 2020-11-11 15:26:41 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
 
 2020-11-11 15:26:41 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-12 14:43:25 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_1.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_2.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_3.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_4.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_5.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_6.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_7.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_8.jpg' not exist!
+2020-11-12 14:43:26 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_9.jpg' not exist!
+2020-11-12 14:43:27 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_10.jpg' not exist!
+2020-11-12 14:43:27 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_11.jpg' not exist!
+2020-11-12 14:43:27 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_12.jpg' not exist!
+2020-11-12 14:43:27 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_13.jpg' not exist!
+2020-11-12 14:43:27 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_14.jpg' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua//languages/common/images/backgrounds/main_head_15.jpg' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/logo.png' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/icons/home.png' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/icons/to-print.png' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/icons/site-map.png' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4090_0.jpg' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4089_0.jpg' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4088_0.jpg' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4087_0.webp' not exist!
+2020-11-12 14:43:28 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4086_0.png' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4085_0.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4084_0.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4083_0.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4082_0.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/ukr/images/users/news/news_4081_0.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/waitingroom.png' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/ask_the_director.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/suburban_electric_trains.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/new_work.jpg' not exist!
+2020-11-12 14:43:29 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/transportation-cars.jpg' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/vagon-salon.jpg' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/expres1.jpg' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/more2.jpg' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/b_nbtc.gif' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/ban-1.png' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/ban-4.png' not exist!
+2020-11-12 14:43:30 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'https://dp.uz.gov.ua/languages/common/images/temp/ban-fb.png' not exist!
+2020-11-12 15:48:15 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-12 15:48:15 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-12 16:05:48 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->
+
+2020-11-12 16:05:48 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open 
+2020-11-12 16:06:45 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->faterra.com
+
+2020-11-12 16:06:45 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open faterra.com
+2020-11-12 16:06:47 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php | Line with problem: 113 | Post or Get data not valid ->faterra.com
+
+2020-11-12 16:06:47 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:179/ Failed to open faterra.com
+2020-11-12 16:06:55 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:176/ Failed to open https://faterra.com
+2020-11-12 16:07:04 : File not exist:C:\os\domains\Parsing-Pict\application\Core\Validator.php / line:176/ Failed to open https://faterra.com
+2020-11-12 16:08:10 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!
+2020-11-12 16:08:17 : Script with problem: C:\os\domains\Parsing-Pict\application\Core\Validator.php Line with problem: 143 | file template 'application/Controllers/ControllerNastol.php' not exist!

@@ -25,11 +25,12 @@ function showAlert(message, type) {
     }, 3000);
 }
 
-$(document).on('click', '.check', function (event) {
+$(document).on('click', '.check, .download', function (event) {
     event.preventDefault();
+    let check = $(this).data('check');
     let form = $('.get-file');
     let action = form.attr('action');
-    let data = form.serialize();
+    let data = form.serialize() + '&check=' + check;
     $.ajax({
         type: 'POST',
         url: action,
@@ -43,6 +44,6 @@ $(document).on('click', '.check', function (event) {
             alert("Page " + href + " cannot open. Error:" + error);
             $('#loader').hide();
         },
-        timeout: 8000
+        timeout: 15000
     })
 });

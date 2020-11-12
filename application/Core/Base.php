@@ -9,12 +9,18 @@ class Base implements Face\Base
     /**
      * Program version
      */
-    public const VERSION = '0.2.1';
+    public const VERSION = '0.3.0';
 
     /**
      * Main folder where both frontend and backend are located
      */
     public const PATH_ROOT = __DIR__ . '/../..';
+
+    /**
+     *
+     * Folder for downloads images
+     */
+    public const PATH_DOWNLOAD = 'downloads';
 
     /**
      * Application folder name

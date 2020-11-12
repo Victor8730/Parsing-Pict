@@ -35,17 +35,19 @@ class ControllerUrl extends Controller
         $strOutside = $this->validate();
 
         if ($this->checkDataFromUrl($strOutside) === true) {
-            if ($this->isAjax) {
+            if ($this->isAjax && $strOutside['check'] === true) {
                 $this->ajaxResponse(true, 'Url OK!');
             } else {
-                $this->download(new DefaultGetter($strOutside['url']));
+                ($this->download(new DefaultGetter($strOutside['url'])) === true) ?
+                    $this->ajaxResponse(true, 'Download success!') :
+                    $this->ajaxResponse(false, 'Download failed!');
             }
         }
     }
 
     private function download(SiteImageGetter $getter)
     {
-        $getter->get();
+        return $getter->get();
     }
 
     /**
@@ -75,6 +77,7 @@ class ControllerUrl extends Controller
     private function validate(): array
     {
         $urlData = $_POST['url-data'] ?? '';
+        $check = $_POST['check'] == 0 ? false : true;
 
         try {
             $urlData = $this->validator->checkStr($urlData);
@@ -82,6 +85,6 @@ class ControllerUrl extends Controller
             echo $e->getMessage();
         }
 
-        return ['url' => $urlData];
+        return ['url' => $urlData, 'check' => $check];
     }
 }
