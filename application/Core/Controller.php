@@ -44,16 +44,16 @@ class Controller extends Base
     /**
      * Return the response as a json string
      * @param bool $success
-     * @param string $message
+     * @param array $data
      */
-    protected function ajaxResponse(bool $success = true, string $message = ''): void
+    protected function ajaxResponse(bool $success = true, array $data = []): void
     {
-        $response = array(
+        $response = [
             'success' => ($success===true) ? 'success' : 'danger',
-            'message' => $message
-        );
+            'data' => $data,
+        ];
 
-        exit(json_encode($response));
+        echo(json_encode($response));
     }
 
     /**

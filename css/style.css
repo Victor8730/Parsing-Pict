@@ -8,3 +8,7 @@
 .pointer {
     cursor: pointer;
 }
+
+.progress{
+   height: 2rem;
+}

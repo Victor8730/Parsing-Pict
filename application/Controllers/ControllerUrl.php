@@ -36,12 +36,31 @@ class ControllerUrl extends Controller
 
         if ($this->checkDataFromUrl($strOutside) === true) {
             if ($this->isAjax && $strOutside['check'] === true) {
-                $this->ajaxResponse(true, 'Url OK!');
+                $this->ajaxResponse(true, ['Url OK!']);
             } else {
                 ($this->download(new DefaultGetter($strOutside['url'])) === true) ?
-                    $this->ajaxResponse(true, 'Download success!') :
-                    $this->ajaxResponse(false, 'Download failed!');
+                    $this->ajaxResponse(true, ['Download success!']) :
+                    $this->ajaxResponse(false, ['Download failed!']);
             }
+        }
+    }
+
+    public function actionTotal(): int
+    {
+        return $_SESSION['total'] ?? 0;
+    }
+
+    public function actionListen(): void
+    {
+        session_start();
+
+        //echo $_SESSION['progress'] ?? '';
+
+        $this->ajaxResponse(false, [$_SESSION['total'], $_SESSION['progress']]);
+
+
+        if (!empty($_SESSION['progress']) && $_SESSION['progress'] >= $_SESSION['total']) {
+            unset($_SESSION['progress']);
         }
     }
 
@@ -61,7 +80,7 @@ class ControllerUrl extends Controller
             $this->validator->checkFileExistFromUrl($dataOutside['url']);
         } catch (NotExistFileFromUrlException $e) {
             if ($this->isAjax) {
-                $this->ajaxResponse(false, 'Url Bad!');
+                $this->ajaxResponse(false, ['Url Bad!']);
             } else {
                 Route::errorPage404();
             }

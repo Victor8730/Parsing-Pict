@@ -9,7 +9,7 @@ class Base implements Face\Base
     /**
      * Program version
      */
-    public const VERSION = '0.3.0';
+    public const VERSION = '0.3.1';
 
     /**
      * Main folder where both frontend and backend are located
